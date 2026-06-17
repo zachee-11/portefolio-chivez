@@ -28,9 +28,9 @@ export const navLinks = [
 ];
 
 export const stats = [
-  { value: "BUT GEA", label: "Formation" },
-  { value: "GCF", label: "Parcours" },
-  { value: "CCA", label: "Objectif" },
+  { value: "BUT 3 -  Gestion des Entreprises et des Administrations", label: "Formation" },
+  { value: "Parcours Gestion Comptable, Fiscale et Financière(GCFF)", label: "Parcours" },
+  { value: "Intégrer un Master en Comptabilité, Contrôle et Audit (CCA)", label: "Objectif" },
 ];
 
 export const experiences = [
