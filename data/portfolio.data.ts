@@ -1,10 +1,7 @@
 import {
-  BarChart3,
-  Calculator,
-  FileSpreadsheet,
-  Landmark,
-  PieChart,
-  ShieldCheck,
+  Search,
+  ClipboardCheck,
+  Target,
 } from "lucide-react";
 
 export const profile = {
@@ -94,57 +91,47 @@ export const experiences = [
 
 export const skills = [
   {
-    icon: Calculator,
-    title: "Comptabilité",
+    icon: Search,
+    title: "Analyser",
+    color: "blue",
+    description:
+      "Analyser les données comptables, fiscales et financières afin d'évaluer la situation d'une organisation et identifier les axes d'amélioration.",
     items: [
-      "Comptabilité générale",
-      "Comptabilité approfondie",
-      "Rapprochements bancaires",
-      "Suivi des opérations comptables",
+      "Analyse des états financiers",
+      "Diagnostic financier",
+      "Contrôle de cohérence des données comptables",
+      "Interprétation des indicateurs de performance",
     ],
   },
+
   {
-    icon: PieChart,
-    title: "Finance",
+    icon: ClipboardCheck,
+    title: "Décider",
+    color: "green",
+    description:
+      "Contribuer à la prise de décision grâce à la production d'informations fiables et à l'évaluation des impacts financiers et fiscaux.",
     items: [
-      "Analyse financière",
-      "Ratios financiers",
-      "Bilan",
-      "Compte de résultat",
+      "Élaboration de tableaux de bord",
+      "Analyse des coûts et de la rentabilité",
+      "Prévisions budgétaires",
+      "Aide à la décision stratégique",
     ],
   },
+
   {
-    icon: ShieldCheck,
-    title: "Audit & contrôle",
+    icon: Target,
+    title: "Piloter",
+    color: "orange",
+    description:
+      "Piloter et suivre l'activité financière de l'organisation en assurant le respect des objectifs et des procédures.",
     items: [
-      "Contrôle interne",
-      "Suivi budgétaire",
-      "Contrôle des dépenses",
-      "Analyse des écarts",
+      "Gestion budgétaire",
+      "Suivi de trésorerie",
+      "Contrôle de gestion",
+      "Coordination avec les différents services",
     ],
-  },
-  {
-    icon: Landmark,
-    title: "Banque",
-    items: [
-      "Dossiers de crédit",
-      "Ouverture de comptes",
-      "Relation client",
-      "Produits bancaires",
-    ],
-  },
-  {
-    icon: FileSpreadsheet,
-    title: "Outils",
-    items: ["Excel", "Word", "PowerPoint", "Reporting"],
-  },
-  {
-    icon: BarChart3,
-    title: "Qualités",
-    items: ["Rigueur", "Esprit d’analyse", "Synthèse", "Travail en équipe"],
   },
 ];
-
 export const projects = [
   {
     title: "SAE — Neyret Textile",
