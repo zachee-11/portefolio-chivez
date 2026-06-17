@@ -27,6 +27,28 @@ const colorClasses = {
     dot: "bg-orange-500",
     glow: "bg-orange-500/20",
   },
+
+  purple: {
+  border: "border-l-purple-600",
+  icon: "bg-purple-100 text-purple-800",
+  line: "bg-purple-600",
+  dot: "bg-purple-600",
+  glow: "bg-purple-500/20",
+},
+cyan: {
+  border: "border-l-cyan-600",
+  icon: "bg-cyan-100 text-cyan-800",
+  line: "bg-cyan-600",
+  dot: "bg-cyan-600",
+  glow: "bg-cyan-500/20",
+},
+slate: {
+  border: "border-l-slate-600",
+  icon: "bg-slate-100 text-slate-800",
+  line: "bg-slate-600",
+  dot: "bg-slate-600",
+  glow: "bg-slate-500/20",
+},
 } as const;
 
 export function Skills() {

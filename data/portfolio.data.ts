@@ -2,6 +2,9 @@ import {
   Search,
   ClipboardCheck,
   Target,
+  Calculator,
+  ShieldCheck,
+  FileSpreadsheet,
 } from "lucide-react";
 
 export const profile = {
@@ -95,7 +98,7 @@ export const skills = [
     title: "Analyser",
     color: "blue",
     description:
-      "Analyser les données comptables, fiscales et financières afin d'évaluer la situation d'une organisation et identifier les axes d'amélioration.",
+      "J’analyse les données comptables, fiscales et financières afin d’évaluer la situation d’une organisation, comprendre ses performances et identifier les axes d’amélioration.",
     items: [
       "Analyse des états financiers",
       "Diagnostic financier",
@@ -103,13 +106,12 @@ export const skills = [
       "Interprétation des indicateurs de performance",
     ],
   },
-
   {
     icon: ClipboardCheck,
     title: "Décider",
     color: "green",
     description:
-      "Contribuer à la prise de décision grâce à la production d'informations fiables et à l'évaluation des impacts financiers et fiscaux.",
+      "Je contribue à la prise de décision en produisant des informations fiables, structurées et utiles à l’évaluation des impacts financiers, fiscaux et organisationnels.",
     items: [
       "Élaboration de tableaux de bord",
       "Analyse des coûts et de la rentabilité",
@@ -117,21 +119,60 @@ export const skills = [
       "Aide à la décision stratégique",
     ],
   },
-
   {
     icon: Target,
     title: "Piloter",
     color: "orange",
     description:
-      "Piloter et suivre l'activité financière de l'organisation en assurant le respect des objectifs et des procédures.",
+      "Je participe au pilotage et au suivi de l’activité financière en veillant au respect des objectifs, des procédures et des règles de gestion.",
     items: [
       "Gestion budgétaire",
       "Suivi de trésorerie",
       "Contrôle de gestion",
-      "Coordination avec les différents services",
+      "Coordination avec les services",
+    ],
+  },
+  {
+    icon: Calculator,
+    title: "Comptabiliser",
+    color: "purple",
+    description:
+      "Je mobilise mes connaissances en comptabilité générale et approfondie pour traiter, organiser et fiabiliser les informations comptables.",
+    items: [
+      "Saisie des opérations comptables",
+      "Rapprochements bancaires",
+      "Classement des pièces comptables",
+      "Suivi des dépenses",
+    ],
+  },
+  {
+    icon: ShieldCheck,
+    title: "Contrôler",
+    color: "cyan",
+    description:
+      "Je participe au contrôle des informations financières afin de vérifier leur cohérence, leur conformité et leur utilité pour le suivi de l’activité.",
+    items: [
+      "Contrôle interne",
+      "Contrôle des dépenses",
+      "Suivi budgétaire",
+      "Analyse des écarts",
+    ],
+  },
+  {
+    icon: FileSpreadsheet,
+    title: "Structurer",
+    color: "slate",
+    description:
+      "J’utilise les outils bureautiques pour organiser les données, produire des supports clairs et présenter des informations utiles à la décision.",
+    items: [
+      "Excel",
+      "Word",
+      "PowerPoint",
+      "Reporting",
     ],
   },
 ];
+
 export const projects = [
   {
     title: "SAE — Neyret Textile",
